@@ -1,0 +1,70 @@
+.slider {
+    padding: 120px 0;
+    background: #F8FBFD;
+    &__wrapper {
+        margin-top: 80px;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+    &__img {
+        width: 764.14px;
+        height: 433.41px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        background: #E9EDF2;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        padding: 32px;
+        width: 435.86px
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 32px;
+        color: #181E28;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #181E28;
+        margin-top: 8px;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 32px;
+        column-gap: 20px;
+        li {
+            width: 24px;
+            height: 24px;
+        }
+        button {
+            border-radius: 100%;
+            padding: 0;
+            font-size: 0;
+            width: 12px;
+            height: 12px;
+            background: #E2E7EE;
+            border: none;
+        }
+        .slick-active {
+            button {
+                // width: 24px;
+                // height: 24px;
+                background: $main-color;
+                transform: translateX(-20%) scale(2);
+                transition: 0.5s all;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.virtual {
+    padding: 120px 0;
+    background: radial-gradient(216.43% 100% at 50% 100%, #5200FF 0%, #180660 100%);
+    &__title {
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: flex;
+        column-gap: 8px;
+    }
+    &__item {
+        background: rgba(248, 251, 253, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    &__subtitle {
+        color: #FFFFFF;
+    }
+    &__descr {
+        color: #FFFFFF;
+    }
+}

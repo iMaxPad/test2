@@ -1,0 +1,76 @@
+.contacts {
+    padding: 120px 0;
+    &__wrapper {
+        margin-top: 120px;
+        display: flex;
+    }
+    &__item {
+        width: 389.33px
+    }
+    &__head {
+        font-weight: 400;
+        font-size: 16px;
+        color: #4F5A6A;
+        margin-bottom: 16px;
+    }
+    &__body {
+        font-weight: 400;
+        font-size: 32px;
+        text-decoration-line: underline;
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+        &_fz16 {
+            font-size: 16px;
+            color: #4F5A6A;
+            &:hover {
+                color: #4F5A6A;
+            }
+        }
+    }
+    &__descr {
+        margin-top: 120px;
+    }
+    &__social {
+        margin-top: 48px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 32px;
+        color: #181E28;
+    }
+    &__social {
+        display: flex;
+    }
+    .contacts__social>div {
+        width: 32px;
+        height: 31.81px;
+        background: #8E99A9;
+        display: block;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-right: 16px;
+        transition: 0.5s all;
+        &:hover {
+            transform: translateY(-5px);
+            transition: 0.5s all;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__discord {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-48%,-35%);
+    }
+}

@@ -1,0 +1,30 @@
+.principles {
+    padding: 120px 0;
+    &__wrapper {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 568px);
+        grid-template-rows: minmax(128px, auto);
+        grid-auto-rows: minmax(128px, auto);
+        justify-content: space-between;
+        row-gap: 120px;
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    &__block-title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        color: $main-color;
+            }
+    &__block-subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #4F5A6A;
+    }
+}
